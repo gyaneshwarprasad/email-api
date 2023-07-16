@@ -22,6 +22,8 @@ public class EmailController {
     }
     // http://localhost:8080/api/email
 
+    // http://localhost:8080/api/email
+
     @PostMapping
     public void sendEmail(@RequestBody EmailRequest emailRequest) {
         // Validate and process the email request as needed
