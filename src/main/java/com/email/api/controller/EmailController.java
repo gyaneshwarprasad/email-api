@@ -20,7 +20,6 @@ public class EmailController {
     public EmailController(EmailService emailService) {
         this.emailService = emailService;
     }
-    // http://localhost:8080/api/email
 
     // http://localhost:8080/api/email
     // http://localhost:8080/api/email
